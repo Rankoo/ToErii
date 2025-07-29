@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+    background: linear-gradient(359deg, #673AB7, #a3839e3d);
+    display: grid;
+    margin: 0;
+    padding: 0;
+    place-content: center;
+}
