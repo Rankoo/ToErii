@@ -6,6 +6,11 @@
 }
 
 body > main {
+  & > p, & > h1 {
+    padding: 0 1em;
+    text-align: center;
+  }
+
   font-family: "Dancing Script", cursive;
   background: linear-gradient(359deg, #673AB7, #a3839e3d);
   display: flex;
@@ -19,7 +24,6 @@ body > main {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
 }
 
 .snow, .snow::after, .snow::before {
