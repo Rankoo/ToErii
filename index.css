@@ -8,6 +8,7 @@
 body > main {
   &>p {
     font-size: 1rem;
+    margin-bottom: 0.5em;
   }
   font-family: monospace;
   background: linear-gradient(359deg, #673AB7, #a3839e3d);
@@ -27,6 +28,7 @@ body > main {
     font-size: 1rem;
     overflow: auto;
     z-index: 2;
+    padding: 2rem;
 }
 .snow, .snow::after, .snow::before {
   content: "";
